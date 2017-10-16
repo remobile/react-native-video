@@ -21,7 +21,6 @@ public class RCTVideoPackage implements ReactPackage {
         return Collections.emptyList();
     }
 
-    @Override
     public List<ViewManager> createViewManagers(ReactApplicationContext reactContext) {
         return Arrays.<ViewManager>asList(new RCTVideoViewManager());
     }
